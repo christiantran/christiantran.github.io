@@ -1,0 +1,16 @@
+header {
+    background-image: url(/assets/coastview.jpg);
+    height: 65vh;
+    background-size: cover;
+}
+h1 {
+    color: white;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 4em;
+}
+.top-contact {
+    color: white;
+}
+.about-me {
+    font-size: 1.5em;
+}
