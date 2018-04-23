@@ -1,6 +1,6 @@
 header {
     background-image: url(/assets/coastview.jpg);
-    height: 65vh;
+    height: 80vh;
     background-size: cover;
 }
 h1 {
@@ -13,4 +13,7 @@ h1 {
 }
 .about-me {
     font-size: 1.5em;
+}
+.icon {
+    font-size: 4rem;
 }
