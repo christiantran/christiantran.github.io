@@ -3,10 +3,22 @@ header {
     height: 80vh;
     background-size: cover;
 }
+.z  {
+    z-index: -1;
+}
+footer {
+    background-image: url(/assets/oceanview.jpg);
+    height: 80vh;
+    background-size: cover;
+}
 h1 {
     color: white;
     font-family: 'Homemade Apple', cursive;
     font-size: 4em;
+}
+.foot-text {
+    color: white;
+    font-family: 'Homemade Apple', cursive;
 }
 .top-contact {
     color: white;
@@ -20,13 +32,14 @@ h1 {
 h2 {
     font-family: 'Homemade Apple', cursive;
     font-size: 3em;
+    text-align: center
 }
 .hexagon-grey {
     position: relative;
-    width: 150px; 
-    height: 86.60px;
+    width: 75px; 
+    height: 43.30px;
     background-color: #dadada;
-    margin: 43.30px 0;
+    margin: 21.65px 0;
     box-shadow: 0 0 20px rgba(0,0,0,0.6);
   }
   
@@ -35,22 +48,22 @@ h2 {
     content: "";
     position: absolute;
     z-index: 1;
-    width: 106.07px;
-    height: 106.07px;
+    width: 53.03px;
+    height: 53.03px;
     -webkit-transform: scaleY(0.5774) rotate(-45deg);
     -ms-transform: scaleY(0.5774) rotate(-45deg);
     transform: scaleY(0.5774) rotate(-45deg);
     background-color: inherit;
-    left: 21.9670px;
+    left: 10.9835px;
     box-shadow: 0 0 20px rgba(0,0,0,0.6);
   }
   
   .hexagon-grey:before {
-    top: -53.0330px;
+    top: -26.5165px;
   }
   
   .hexagon-grey:after {
-    bottom: -53.0330px;
+    bottom: -26.5165px;
   }
   
   /*cover up extra shadows*/
@@ -59,17 +72,17 @@ h2 {
     position: absolute;
     top:0px;
     left: 0;
-    width:150px;
-    height:86.6025px;
+    width:75px;
+    height:43.3013px;
     z-index: 2;
     background: inherit;
   }
   .hexagon-white {
     position: relative;
-    width: 150px; 
-    height: 86.60px;
+    width: 75px; 
+  height: 43.30px;
     background-color: #ffffff;
-    margin: 43.30px 0;
+    margin: 21.65px 0;
     box-shadow: 0 0 20px rgba(0,0,0,0.6);
   }
   
@@ -78,22 +91,22 @@ h2 {
     content: "";
     position: absolute;
     z-index: 1;
-    width: 106.07px;
-    height: 106.07px;
+    width: 53.03px;
+    height: 53.03px;
     -webkit-transform: scaleY(0.5774) rotate(-45deg);
     -ms-transform: scaleY(0.5774) rotate(-45deg);
     transform: scaleY(0.5774) rotate(-45deg);
     background-color: inherit;
-    left: 21.9670px;
+    left: 10.9835px;
     box-shadow: 0 0 20px rgba(0,0,0,0.6);
   }
   
   .hexagon-white:before {
-    top: -53.0330px;
+    top: -26.5165px;
   }
   
   .hexagon-white:after {
-    bottom: -53.0330px;
+    bottom: -26.5165px;
   }
   
   /*cover up extra shadows*/
@@ -102,17 +115,17 @@ h2 {
     position: absolute;
     top:0px;
     left: 0;
-    width:150px;
-    height:86.6025px;
+    width:75px;
+    height:43.3013px;
     z-index: 2;
     background: inherit;
   }
   .hexagon-peach {
     position: relative;
-    width: 150px; 
-    height: 86.60px;
+    width: 75px; 
+    height: 43.30px;
     background-color: #ffc3a4;
-    margin: 43.30px 0;
+    margin: 21.65px 0;
     box-shadow: 0 0 20px rgba(0,0,0,0.6);
   }
   
@@ -121,22 +134,22 @@ h2 {
     content: "";
     position: absolute;
     z-index: 1;
-    width: 106.07px;
-    height: 106.07px;
+    width: 53.03px;
+    height: 53.03px;
     -webkit-transform: scaleY(0.5774) rotate(-45deg);
     -ms-transform: scaleY(0.5774) rotate(-45deg);
     transform: scaleY(0.5774) rotate(-45deg);
     background-color: inherit;
-    left: 21.9670px;
+    left: 10.9835px;
     box-shadow: 0 0 20px rgba(0,0,0,0.6);
   }
   
   .hexagon-peach:before {
-    top: -53.0330px;
+    top: -26.5165px;
   }
   
   .hexagon-peach:after {
-    bottom: -53.0330px;
+    bottom: -26.5165px;
   }
   
   /*cover up extra shadows*/
@@ -145,8 +158,8 @@ h2 {
     position: absolute;
     top:0px;
     left: 0;
-    width:150px;
-    height:86.6025px;
+    width:75px;
+    height:43.3013px;
     z-index: 2;
     background: inherit;
   }
