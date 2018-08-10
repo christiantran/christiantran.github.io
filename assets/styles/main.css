@@ -1,15 +1,21 @@
-header {
+/* header {
     background-image: url(/assets/coastview.jpg);
     height: 80vh;
     background-size: cover;
-}
+} */
 .z  {
     z-index: -1;
 }
-footer {
+.img2 {
     background-image: url(/assets/oceanview.jpg);
     height: 80vh;
-    background-size: cover;
+
+        position: relative;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
 }
 h1 {
     color: white;
@@ -23,14 +29,28 @@ h1 {
 .top-contact {
     color: white;
 }
-.about-me {
+/* .about-me {      CHANGE ABOUT ME
     font-size: 1.5em;
-}
+} */
 .icon {
     font-size: 4rem;
 }
 h2 {
     font-family: 'Homemade Apple', cursive;
     font-size: 3em;
+}
+.parallax { 
+    /* The image used */
+    background-image: url(/assets/coastview.jpg);
+
+    /* Set a specific height */
+    height: 100vh; 
+
+    /* Create the parallax scrolling effect */
+    /* position: relative; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
